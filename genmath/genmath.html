@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="genmath.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
+    <script src="genmath.js"></script>
+    <link ref="shortcut icon" href="https://www.seekpng.com/png/full/167-1675390_white-pi-symbol-clipart-white-pi-sign-png.png">
+    <title>Genmath</title>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    
+</head>
+<body>
+    <nav id="navbar">
+        <h2 id="navbarh2">General-Mathemathics</h2><img onclick="clickme()" src="https://www.seekpng.com/png/full/167-1675390_white-pi-symbol-clipart-white-pi-sign-png.png" alt="" id="navbarimg">
+
+
+    </nav>
+    
+   <div id="banner" class="contain">
+<div id="simpleinterest">
+<h2 id="sih2" class="interesth2">Simple Interest</h2>
+<input id="principal" type="text" placeholder="Principal Amount" class="simp" style="color:black">
+<input id="rate" type="text" placeholder="Rate Amount"  class="simp" style="color:black">
+<input id="time" type="text" placeholder="Time in years"  class="simp" style="color:black">
+<h2 id="answerlabelh2">Answer: </h2>
+<input id="answer1" placeholder="">
+<button id="solve1"  onclick="simpleInterestSolver()">Solve</button>
+</div>
+
+<div id="compoundinterest">
+<h2 id="cih2" class="interesth2">Compound Interest</h2>
+<input id="principal2" type="text" placeholder="Principal Amount" class="simp" style="color:black">
+<input id="rate2" type="text" placeholder="Rate Amount" class="simp" style="color:black">
+<input id="n2" type="text" placeholder="n times compunded" class="simp" style="color:black">
+<input id="time2" type="text" placeholder="Time in years"  class="simp" style="color:black">
+<h2 id="answerlabel2h2">Answer: </h2>
+<input id="answer2" placeholder="">
+<button id="solve2" onclick="compoundInterestSolver()">Solve</button>
+</div>
+
+<div id="jokediv">
+
+<div id="jokesback"></div>
+<div id="jokes">
+<h2 id="jokeh2">Random Joke</h2>
+<div id="injoke">
+
+  <!--Joke Div inside-->
+<h3 id="categorylabel">Category: </h2>
+<h2 id="categoryh2"></h2>
+
+<h3 id="typelabel">Type: </h2>
+  <h2 id="typelabelh2"></h2>
+
+  <h3 id="setuplabel">Question: </h2>
+    <h2 id="setuplabelh2"></h2>
+
+    <button id="deliverybutton1" onclick="revealJoke()">Click Me!</button>
+      <h3 id="deliverylabel">Joke: </h2>
+        <h2 id="deliverylabelh2"></h2>
+</div>
+</div>
+
+</div>
+   </div>
+  
+   <canvas class="background"></canvas>
+   <script>
+       window.onload = function() {
+  Particles.init({
+    selector: '.background',
+    color:'orange',
+    sizeVariations:'6',
+    speed:'2',
+    connectParticles:false 
+  });
+};
+
+function clickme(){
+let jokediv = $("#jokediv")
+jokediv.slideToggle(100);
+}
+async function apiRequest1(url){
+  let response = await fetch(url); 
+  if(response.status == 200 || response.status != 400){
+        const json = await response.json();
+        console.log(json);
+        const jokeData = ["category","type","joke"];
+        jokedelivery = json.delivery;
+        let category = document.getElementById("categoryh2");
+  category.innerHTML = `${json.category}`;
+  let type = document.getElementById("typelabelh2");
+  type.innerHTML = `${json.type}`;
+  let setup = document.getElementById("setuplabelh2");
+  setup.innerHTML = `${json.setup}`;
+  let jokeDeliver = document.getElementById("deliverylabelh2");
+  jokeDeliver.innerHTML = `${json.delivery}`;
+  if(jokeDeliver.length > 25){
+    jokeDeliver.style.top = "80%";
+  }
+
+
+}
+}
+setTimeout(apiRequest1("https://v2.jokeapi.dev/joke/Any"),1000);
+
+function revealJoke(){
+  async function apiRequest2(url){
+  let response = await fetch(url); 
+  }
+  apiRequest1("https://v2.jokeapi.dev/joke/Any");
+}
+
+
+   </script>
+</body>
+</html>
