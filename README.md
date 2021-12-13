@@ -3,7 +3,7 @@
 > when you dont know how to solve for both.
 > 
 
-## <img src="https://www.thermaxglobal.com/wp-content/uploads/2019/12/animated-arrow-down.gif" width="40px" Installation
+## <img src="https://www.thermaxglobal.com/wp-content/uploads/2019/12/animated-arrow-down.gif" width="40px"> Installation
 
 ## <img src="https://media0.giphy.com/media/CN8RJQ9PWBk5y/giphy.gif" width="30px"> Demo
 <img src="img/genmathdemo.png">
