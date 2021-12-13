@@ -18,6 +18,7 @@
 
 ## <img src="https://camo.githubusercontent.com/c0a1ff533f2a741658eb8a0551bd70fb541825ef55f07e8c761aa2795d2e0dfd/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f6959384352426451584f444a5343455249722f67697068792e676966" width="30px">  Fun-Feature 
 <img src="img/genmathjoke.png">
-> Clicking the Pi symbol will generate random jokes. Fetching from the json data in the specified url below.
+
+>Clicking the Pi symbol will generate random jokes. Fetching from the json data in the specified url below.
 
 ### Api Used:  <a href="https://v2.jokeapi.dev/joke/Any">https://v2.jokeapi.dev/joke/Any</a>
