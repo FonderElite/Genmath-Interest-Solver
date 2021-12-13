@@ -3,9 +3,9 @@
 > when you dont know how to solve for both.
 > 
 
-## <img src="https://www.thermaxglobal.com/wp-content/uploads/2019/12/animated-arrow-down.gif" width="40px"> Installation
+## <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> Installation
 
-## <img src="https://media0.giphy.com/media/CN8RJQ9PWBk5y/giphy.gif" width="30px"> Demo
+##  <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> Demo
 <img src="img/genmathdemo.png">
 
 ## <img src="https://i.pinimg.com/originals/2d/a9/bd/2da9bdcb0074d4d14066640894234aa7.gif" width="40px"> Technologies
