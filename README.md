@@ -1,4 +1,4 @@
-# <img src="https://i.gifer.com/GqgS.gif" width="30px"> Genmath-Interest-Solver
+# <img src="https://media2.giphy.com/avatars/danielfigueirdo/mR5uHXLuePGT.gif" width="30px"> Genmath-Interest-Solver
 > This is a website that solves Simple Interest && Compound Interest. This project is helpful especially when your lazy or
 > when you dont know how to solve for both.
 > 
