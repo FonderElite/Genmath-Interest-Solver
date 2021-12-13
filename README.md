@@ -3,9 +3,9 @@
 > when you dont know how to solve for both.
 > 
 
-## <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> Installation
+## <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--Mj3oLC6P--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/uhvobpcrgn8m83cpio5a.gif" width="30px"> Installation
 
-##  <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> Demo
+##  <img src="https://camo.githubusercontent.com/c0a1ff533f2a741658eb8a0551bd70fb541825ef55f07e8c761aa2795d2e0dfd/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f6959384352426451584f444a5343455249722f67697068792e676966" width="30px"> Demo
 <img src="img/genmathdemo.png">
 
 ## <img src="https://i.pinimg.com/originals/2d/a9/bd/2da9bdcb0074d4d14066640894234aa7.gif" width="40px"> Technologies
