@@ -3,7 +3,7 @@
 > when you dont know how to solve for both.
 > 
 
-## <img src="https://media0.giphy.com/media/CN8RJQ9PWBk5y/giphy.gif" width="10px"> Demo
+## <img src="https://media0.giphy.com/media/CN8RJQ9PWBk5y/giphy.gif" width="30px"> Demo
 <img src="img/genmathdemo.png">
 
 
