@@ -21,4 +21,9 @@
 
 >Clicking the Pi symbol will generate random jokes. Fetching from the json data in the specified url below.
 
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
 ### Api Used:  <a href="https://v2.jokeapi.dev/joke/Any">https://v2.jokeapi.dev/joke/Any</a>
